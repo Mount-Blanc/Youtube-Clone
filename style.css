@@ -1,0 +1,10 @@
+.container {
+    display:flex;
+    background-color: #c01e1e;;
+    padding: 1vw;
+    justify-content: space-between;
+}
+
+.tag-bar {
+    border:1px solid black;
+}
