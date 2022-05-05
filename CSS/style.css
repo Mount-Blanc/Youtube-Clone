@@ -4,10 +4,6 @@
     justify-content: space-between;
     padding:10px;
 }
-
-.tag-bar {
-    border:1px solid black;
-}
 .btn {
     background-color: white;
     color:#3b3bda;
@@ -15,9 +11,14 @@
     padding:10px;
     font-weight:bold;
 }
-
+.tag-bar {
+    border:1px solid black;
+    padding:15px;
+    border-right:none;
+    border-left:none;
+}
 .Tag {
-    background-color: #f7f7f7;
+    background-color: #eeeeee;
     border: 1px solid #e0e0e0;
     Border-radius:14px;
     padding:5px;
