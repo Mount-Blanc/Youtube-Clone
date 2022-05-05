@@ -1,8 +1,8 @@
 .container {
     display:flex;
     background-color: #c01e1e;;
-    padding: 1vw;
     justify-content: space-between;
+    padding:10px;
 }
 
 .tag-bar {
@@ -14,4 +14,10 @@
     border:2px solid #3b3bf7;
     padding:10px;
     font-weight:bold;
+}
+
+.Tag {
+    background-color: grey;
+    border-radius:50%;
+    border: 1px solid grey;
 }
