@@ -1,6 +1,17 @@
+body {
+    display:grid;
+    grid-template-areas:
+    'Header'
+    'side-bar'
+    'tag-bar'
+    'video';
+}
 .Header {
     display:flex;
     justify-content: space-between;
+}
+.side-bar {
+    border: 2px solid black;
 }
 .search {
     padding:8px;
