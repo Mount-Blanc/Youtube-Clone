@@ -17,7 +17,8 @@
 }
 
 .Tag {
-    background-color: grey;
-    border-radius:50%;
-    border: 1px solid grey;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    Border-radius:14px;
+    padding:5px;
 }
