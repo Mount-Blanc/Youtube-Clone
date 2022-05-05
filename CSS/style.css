@@ -23,3 +23,7 @@
     Border-radius:14px;
     padding:5px;
 }
+.Tag:hover {
+    background-color:#e0e0e0;
+    cursor:pointer;
+}
