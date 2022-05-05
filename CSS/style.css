@@ -12,16 +12,21 @@
     font-weight:bold;
 }
 .tag-bar {
-    border:1px solid black;
+    border:1px solid #e0e0e0;
     padding:15px;
     border-right:none;
     border-left:none;
+    overflow-x:scroll;
+    width: 100%;
+    overflow-y:hidden;
+    white-space:nowrap;
 }
 .Tag {
     background-color: #eeeeee;
     border: 1px solid #e0e0e0;
     Border-radius:14px;
-    padding:5px;
+    padding:5px 10px;
+    margin-right:0.5vw;
 }
 .Tag:hover {
     background-color:#e0e0e0;
