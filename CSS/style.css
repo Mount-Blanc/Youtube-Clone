@@ -15,8 +15,11 @@ overflow-x:hidden;
 .side-bar {
     height:100vh;
 }
+.items {
+    padding-top:75px;
+}
 .side-bar-item {
-    padding-top:25px;
+    padding-top:45px;
 }
 .search {
     padding:8px;
