@@ -1,17 +1,22 @@
 body {
-    display:grid;
-    grid-template-areas:
-    'Header'
-    'side-bar'
-    'tag-bar'
-    'video';
+display:grid;
+grid-template-columns: 1fr 1fr;
+width:10vw;
+overflow-x:hidden;
+}
+.main-body {
+   display:inline-block;
+   width:92vw;
 }
 .Header {
     display:flex;
     justify-content: space-between;
 }
 .side-bar {
-    border: 2px solid black;
+    height:100vh;
+}
+.side-bar-item {
+    padding-top:25px;
 }
 .search {
     padding:8px;
@@ -45,4 +50,7 @@ body {
 .Tag:hover {
     background-color:#e0e0e0;
     cursor:pointer;
+}
+.video {
+
 }
