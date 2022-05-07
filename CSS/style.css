@@ -12,9 +12,15 @@ overflow-x:hidden;
     display:flex;
     justify-content: space-between;
     padding:5px;
+    position:sticky;
+}
+.logo {
+    height:20px;
 }
 .side-bar {
     height:100vh;
+    font-size:10px;
+    text-align: center;
 }
 .items {
     padding-top:50px;
@@ -23,7 +29,7 @@ overflow-x:hidden;
     padding-top:45px;
 }
 .search-feature {
-
+    display:flex;
 }
 .search {
     float:left;
@@ -33,7 +39,8 @@ overflow-x:hidden;
 .search-button {
     background-color:#f3f2f2 ;
     cursor:pointer;
-    padding:8px;
+    padding:3.5px;
+    border: 1px solid #e0e0e0;
 }
 .sign-btn {
     background-color: white;
@@ -41,9 +48,14 @@ overflow-x:hidden;
     border:1px solid #3b3bf7;
     padding:10px;
     font-weight:bold;
-    margin-right:17px;
+    margin-right:-28px;
     text-transform: uppercase;
 }
+.search-icon {
+    padding-left:10px;
+    padding-right:10px;
+}
+
 .tag-bar {
     border:1px solid #e0e0e0;
     padding:15px;
@@ -58,7 +70,7 @@ overflow-x:hidden;
     background-color: #f3f2f2;
     border: 1px solid #e0e0e0;
     Border-radius:14px;
-    padding:5px 10px;
+    padding:6px 10px;
     margin-right:0.5vw;
 }
 .Tag:hover {
