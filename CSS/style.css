@@ -18,6 +18,7 @@ overflow-x:hidden;
 .logo {
     height:20px;
 margin-top: 7px;
+cursor:pointer;
 }
 /*Sidebar*/
 .side-bar {
@@ -65,6 +66,12 @@ margin-top: 7px;
     margin-right:-28px;
     text-transform: uppercase;
     margin-bottom: 5px;
+    cursor:pointer;
+}
+.right-side{
+margin-right:17px;
+margin-bottom:7px;
+cursor:pointer;
 }
 /*Tag bar*/
 .tag-bar {
@@ -94,9 +101,7 @@ margin-top: 7px;
     background-color:black;
     color:white;
 }
-.right-side{
-margin-right:17px;
-}
+
 .video {
 
 }
