@@ -90,6 +90,8 @@ opacity: 1;
   margin-left: -53px;
   text-align: center;
   padding:2px 0 2px 0;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 .Apps-text {
     visibility: hidden;
@@ -99,9 +101,11 @@ opacity: 1;
   position: absolute;
   top:100%;
   left: 50%;
-  margin-left: -53px;
+  margin-left: -38px;
   text-align: center;
   padding:2px 0 2px 0; 
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 .right-side{
 margin-right:17px;
