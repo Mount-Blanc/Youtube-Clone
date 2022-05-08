@@ -16,11 +16,16 @@ overflow-x:hidden;
 }
 .logo {
     height:20px;
+margin-top: 7px;
 }
 .side-bar {
     height:100vh;
     font-size:10px;
     text-align: center;
+}
+.nav-btn {
+    margin-top:10px;
+    margin-right:5px;
 }
 .items {
     padding-top:50px;
@@ -31,7 +36,8 @@ overflow-x:hidden;
 .search-feature {
     display:flex;
     flex-grow: 1;
-    margin:0 20rem 0 15rem;
+    margin:0 20rem 5px 15rem;
+
 }
  .search-input {
     padding:8px;
@@ -52,6 +58,7 @@ overflow-x:hidden;
     font-weight:bold;
     margin-right:-28px;
     text-transform: uppercase;
+    margin-bottom: 5px;
 }
 .search-icon {
     padding-left:10px;
@@ -84,6 +91,9 @@ overflow-x:hidden;
 .Tag.active {
     background-color:black;
     color:white;
+}
+.right-side{
+margin-right:17px;
 }
 .video {
 
