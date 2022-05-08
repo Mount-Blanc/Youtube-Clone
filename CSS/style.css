@@ -8,6 +8,7 @@ overflow-x:hidden;
    display:inline-block;
    width:92vw;
 }
+/*Header*/
 .Header {
     display:flex;
     justify-content: space-between;
@@ -18,6 +19,7 @@ overflow-x:hidden;
     height:20px;
 margin-top: 7px;
 }
+/*Sidebar*/
 .side-bar {
     height:100vh;
     font-size:10px;
@@ -33,11 +35,11 @@ margin-top: 7px;
 .side-bar-item {
     padding-top:45px;
 }
+/*Search*/
 .search-feature {
     display:flex;
     flex-grow: 1;
     margin:0 20rem 5px 15rem;
-
 }
  .search-input {
     padding:8px;
@@ -50,6 +52,10 @@ margin-top: 7px;
     padding:3.5px;
     border: 1px solid #e0e0e0;
 }
+.search-icon {
+    padding-left:10px;
+    padding-right:10px;
+}
 .sign-btn {
     background-color: white;
     color:#3b3bda;
@@ -60,11 +66,7 @@ margin-top: 7px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.search-icon {
-    padding-left:10px;
-    padding-right:10px;
-}
-
+/*Tag bar*/
 .tag-bar {
     border:1px solid #e0e0e0;
     padding:1px;
