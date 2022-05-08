@@ -68,9 +68,45 @@ cursor:pointer;
     margin-bottom: 5px;
     cursor:pointer;
 }
+.tooltip {
+    position: relative;
+}
+.tooltip:hover .Settings-text {
+visibility: visible;
+opacity: 1;
+}
+.tooltip:hover .Apps-text {
+    visibility: visible;
+    opacity: 1;
+}
+.Settings-text {
+ visibility: hidden;
+ width: 90px;
+  background-color: #707070;
+  color: #fff;
+  position: absolute;
+  top:100%;
+  left: 50%;
+  margin-left: -53px;
+  text-align: center;
+  padding:2px 0 2px 0;
+}
+.Apps-text {
+    visibility: hidden;
+ width: 60px;
+  background-color: #707070;
+  color: #fff;
+  position: absolute;
+  top:100%;
+  left: 50%;
+  margin-left: -53px;
+  text-align: center;
+  padding:2px 0 2px 0; 
+}
 .right-side{
 margin-right:17px;
 margin-bottom:7px;
+margin-top:5px;
 cursor:pointer;
 }
 /*Tag bar*/
