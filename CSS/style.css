@@ -141,7 +141,16 @@ cursor:pointer;
     background-color:black;
     color:white;
 }
-
-.video {
-
+.video-section {
+    margin: 1rem;
+}
+.channel-icon {
+    border-radius:50%;
+}
+.video-bottom-section {
+    display:flex;
+}
+.video-details {
+    display:flex;
+    flex-direction:column
 }
