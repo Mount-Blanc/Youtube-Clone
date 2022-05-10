@@ -151,16 +151,24 @@ cursor:pointer;
 .video-channel-name {
     text-decoration: none;
     color:#555;
+    transition: color 150ms;
+    margin-top:.3rem;
+}
+.video-channel-name:hover {
+    color:black;
 }
 .channel-icon {
     border-radius:50%;
+    margin-top:.5rem;
 }
 .video-bottom-section {
     display:flex;
 }
 .video-details {
     display:flex;
-    flex-direction:column
+    flex-direction:column;
+    margin-left:.5rem;
+    margin-top:.6rem;
 }
 .video-metadata {
     color:#555;
